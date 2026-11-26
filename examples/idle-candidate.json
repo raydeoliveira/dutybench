@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "label": "Idle candidate (illustrative uncertainty)",
+  "conditions": {
+    "board": "illustrative test board A",
+    "instrument": "illustrative meter A",
+    "supply_v": 3.7,
+    "workload": "stripped build during idle"
+  },
+  "windows": [
+    {
+      "id": "idle-candidate-1",
+      "phase": "idle",
+      "duration_s": 30,
+      "mean_current_ma": 1.17,
+      "coverage_fraction": 1.0,
+      "uncertainty_ma": 0.01
+    },
+    {
+      "id": "idle-candidate-2",
+      "phase": "idle",
+      "duration_s": 30,
+      "mean_current_ma": 1.17,
+      "coverage_fraction": 1.0,
+      "uncertainty_ma": 0.01
+    }
+  ]
+}

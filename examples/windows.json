@@ -1,0 +1,14 @@
+{
+  "label": "Illustrative Joulescope CSV",
+  "conditions": {
+    "board": "example board",
+    "instrument": "example meter",
+    "supply_v": 3.7,
+    "workload": "idle"
+  },
+  "period_s": 0.5,
+  "windows": [
+    {"id": "idle-a", "phase": "idle", "start_s": 0, "end_s": 1, "uncertainty_ma": 0.01},
+    {"id": "idle-b", "phase": "idle", "start_s": 1, "end_s": 2, "uncertainty_ma": 0.01}
+  ]
+}

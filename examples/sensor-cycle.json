@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "label": "Same firmware, segment 3",
+  "conditions": {
+    "board": "SimpleAir RevE (one unit)",
+    "instrument": "Joulescope JS220 (same unit)",
+    "supply_v": 3.7,
+    "workload": "normal firmware with scheduled SEN66 measurements"
+  },
+  "windows": [
+    {
+      "id": "segment-3",
+      "phase": "contains-scheduled-reading",
+      "duration_s": 295,
+      "mean_current_ma": 14.487
+    }
+  ]
+}

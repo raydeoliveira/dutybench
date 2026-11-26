@@ -1,0 +1,14 @@
+[project]
+name = "dutybench"
+version = "0.1.0"
+description = "Compare firmware current draw on matched operating phases and report when the evidence cannot support a regression verdict."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+dutybench = "dutybench:main"
+dutybench-import = "dutybench_import:main"
+
+[tool.setuptools]
+py-modules = ["dutybench", "dutybench_core", "dutybench_mcp", "dutybench_import"]

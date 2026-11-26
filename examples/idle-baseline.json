@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "label": "Idle baseline (illustrative uncertainty)",
+  "conditions": {
+    "board": "illustrative test board A",
+    "instrument": "illustrative meter A",
+    "supply_v": 3.7,
+    "workload": "stripped build during idle"
+  },
+  "windows": [
+    {
+      "id": "idle-baseline-1",
+      "phase": "idle",
+      "duration_s": 30,
+      "mean_current_ma": 0.861,
+      "coverage_fraction": 1.0,
+      "uncertainty_ma": 0.01
+    },
+    {
+      "id": "idle-baseline-2",
+      "phase": "idle",
+      "duration_s": 30,
+      "mean_current_ma": 0.861,
+      "coverage_fraction": 1.0,
+      "uncertainty_ma": 0.01
+    },
+    {
+      "id": "idle-baseline-3",
+      "phase": "idle",
+      "duration_s": 30,
+      "mean_current_ma": 0.861,
+      "coverage_fraction": 1.0,
+      "uncertainty_ma": 0.01
+    }
+  ]
+}

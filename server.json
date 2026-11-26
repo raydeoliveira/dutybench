@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.raydeoliveira/dutybench-firmware-power",
+  "title": "DutyBench | Firmware Battery Drain",
+  "description": "Compare firmware battery drain by operating phase using Joulescope current measurements.",
+  "version": "0.1.0",
+  "websiteUrl": "https://github.com/raydeoliveira/dutybench",
+  "repository": {
+    "url": "https://github.com/raydeoliveira/dutybench",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/raydeoliveira/dutybench/releases/download/v0.1.0/dutybench-0.1.0.mcpb",
+      "version": "0.1.0",
+      "fileSha256": "c86dafa5fb793f647898482ce63798bed6caa0c5fddaa073fd326ea91b52a3d1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
