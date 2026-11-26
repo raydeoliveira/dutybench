@@ -18,6 +18,12 @@ python3 dutybench.py compare examples/idle-baseline.json examples/idle-candidate
 
 The current readings in both examples come from a public SimpleAir audit using a Joulescope JS220. The first pair preserves the missing coverage and uncertainty information. The second pair adds **illustrative** error bounds and coverage so you can exercise a release gate. For your own gate, use bounds appropriate to your own measurements. [Original measurements and build conditions](https://gist.github.com/juanqui/298cfce644affc80458989effcd3a55e/b6ecc2feab590ed681626e9a3c7463a3d42104b8)
 
+To use these examples with an agent, install the [DutyBench skill](SKILL.md) from your project directory. The skill guides the comparison using the CLI in the evaluation ZIP.
+
+```sh
+npx skills add raydeoliveira/dutybench
+```
+
 ## Compare your own runs
 
 1. Record both builds on the same board and meter. Keep the supply voltage and workload fixed. Identify repeated windows from the same operating phase, such as settling, idle or radio transmit. Use timestamps or an event marker you trust.
